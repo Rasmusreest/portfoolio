@@ -1,0 +1,185 @@
+#background-box {
+  background-color: rgb(122, 7, 7);
+  padding: 50px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 50%;
+  box-shadow: 4px 1px 4px rgb(61, 57, 50);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+html {
+  background-image: url(taust.jpg);
+}
+
+main {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  margin: 100px;
+  text-transform: none;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 5px 2px 5px black;
+}
+
+main h1 {
+  color: white;
+  font-size: 70px;
+  top: 50px;
+  margin: 2%;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 5px 2px 5px black;
+}
+
+.oskused {
+  text-align: left;
+  align-content: flex-end;
+  margin-top: 100px;
+  text-shadow: 5px 2px 5px black;
+}
+
+body h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  text-shadow: 5px 2px 5px black;
+}
+
+p {
+  font-size: 50px;
+  margin-left: 5%;
+  text-shadow: 5px 2px 5px black;
+}
+
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: rgb(122, 7, 7);
+  color: white;
+}
+
+body h3 {
+  text-align: right;
+  margin-right: 10%;
+  color: white;
+}
+
+#Oskused-pilt-minust {
+  background-color: rgb(122, 7, 7);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  margin-bottom: 40%;
+  text-shadow: 5px 2px 5px black;
+}
+
+body p {
+  color: white;
+  margin-top: 150px;
+  text-shadow: 5px 2px 5px black;
+}
+
+li {
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
+
+.gallery {
+  margin: 50px;
+  border: 3px solid rgb(255, 255, 255);
+  width: 20%;
+  margin-left: 7%;
+  margin-right: 5%;
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 40%;
+}
+
+div.gallery:hover {
+  border: 5px solid rgb(255, 255, 255);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.Kontakt {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  padding: 1px 1px;
+  margin-bottom: 40%;
+}
+
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Jutt {
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.nimi {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.oskused-listis {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.oskus {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#email-number {
+  font-size: 30px;
+  background-color: rgb(122, 7, 7);
+  padding: 20px;
+  color: white;
+}
